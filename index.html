@@ -16,6 +16,8 @@
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="lib/bootstrap/css/bootstrap.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -23,6 +25,9 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <script>
+      $("#myCarousel").carousel();
+  </script>
 
   <!-- =======================================================
     Theme Name: Regna
@@ -142,13 +147,6 @@
             <a href="https://github.com/CalvinTse/PlantWaterSystem" target="_blank"><h4>Automatic Plant Watering System</h4></a>
             <hr>
           </div>
-          <!---<div class = "picDescription"> -->
-          <!--<div class="item-pic">-->
-          <!--<a href="https://github.com/CalvinTse/PlantWaterSystem" target="_blank">-->
-          <!--<img src="img/PlantDiagram.jpg">-->
-          <!--&lt;!&ndash;<img src="img/portfolio/app1.jpg">&ndash;&gt;-->
-          <!--</a>-->
-          <!--</div>-->
           <div class="description">
             <div class = "list">
               <ul>
@@ -158,12 +156,14 @@
                 <li>This system also waters the plant (via pump) once the moisture in the soil falls below a certain value.</li>
               </ul>
             </div>
+            <div class="container">
+            </div>
           </div>
         </div>
 
         <div class="row" id="portfolio-wrapper">
           <div class = "header">
-            <a href="https://github.com/CalvinTse/PlantWaterSystem" target="_blank"><h4>NBA ChatBot</h4></a>
+            <a href="https://github.com/CalvinTse/FBChatBot" target="_blank"><h4>NBA ChatBot</h4></a>
             <hr>
           </div>
           <!---<div class = "picDescription"> -->
@@ -181,6 +181,12 @@
                 <li>The bot allows users to subscribe to their favourite teams which will give them a quicker way to access their team's game scores</li>
                 <li>Currently adding a feature to give auto updates for game scores using Facebook Messenger Platform's message_subscription</li>
               </ul>
+            </div>
+            <div class="video_container">
+              <video width="270" height = "" controls>
+                <source src="video/BBStats5.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
             </div>
           </div>
         </div>

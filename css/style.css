@@ -702,6 +702,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*For with pic set width:75%*/
   width: 100%;
   padding-top: 5px;
+  /*
+  background-color: #f7f7f7;
+  */
+}
+
+#portfolio .description .video_container video{
+  text-align: center;
+  border: 2px solid #666666;
+  border-radius: 25px 25px 0px 0px;
+}
+
+#portfolio .description .video_container {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  text-align: center;
 }
 
 #portfolio .header h4{
@@ -720,6 +737,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .list{
   font-size: 14px;
   width: 100%;
+  padding-left: 7px;
 }
 
 #portfolio .list li{
@@ -948,8 +966,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #2dc997;
-  border: 1px solid #2dc997;
+  color: #000000;
+  border: 1px solid #000000;
   display: none;
   text-align: center;
   padding: 15px;
@@ -986,7 +1004,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #000000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -994,7 +1012,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #000000;
 }
 
 /*--------------------------------------------------------------
