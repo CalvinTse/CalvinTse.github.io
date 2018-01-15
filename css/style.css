@@ -918,14 +918,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#contact .links {
+#contact .links p{
   /*float: left;*/
   /*padding-left: 100px;*/
+  color: #000000;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #000000;
   /*float: left;*/
   /*text-align: center;*/
 }
@@ -961,7 +962,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #000000;
   color: #fff;
 }
 
