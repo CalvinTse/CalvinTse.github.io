@@ -710,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .description .video_container video{
   text-align: center;
   border: 2px solid #666666;
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 #portfolio .description .video_container {
