@@ -87,8 +87,8 @@
               <p>Hello and welcome to my website! My name is Calvin Tse and I am currently a 2nd year student studying Computer Engineering at the University of Waterloo.
               </p>
               <p>I have experience as a software developer and enjoy the challenges that it brings.
-                <br>I am proficient with languages such as Java, C#, C++, and JavaScript.
-                <br> I am also familiar with frameworks such as Node.js, Express, Angular, and Ionic.</p>
+                <br>I am proficient with languages such as Java, C#, C/C++, and JavaScript.
+                <br> I am also familiar with frameworks such as Node.js, Express.js, Angular, and Ionic.</p>
               <p>Outside of school and work I enjoy playing sports, discovering new music, playing video games, and hanging out with friends.</p>
           </div>
         </div>
@@ -101,8 +101,22 @@
         <div class="section-header">
           <h3 class="section-title">Work Experience</h3>
         </div>
+
         <div class = "box">
-            <h2>Backend Java Developer | HubHead Corp. </h2>
+          <h2>Software Developer | HubDoc </h2>
+          <hr>
+          <div class = "list">
+            <ul>
+              <li>Implemented new health metric monitoring features for internal web application using Node.js, Express.js, Backbone.js and PostgreSQL to track status of micro-services</li>
+              <li>Implemented a new system to automate Captcha solving for legacy micro-services to resolve a long-standing issue affecting 1000+ users</li>
+              <li>Built and maintained 60+ micro-services in Node.js and JQuery to automate collection of financial documents for various banks, ultilties, and telecom providers</li>
+              <li>Developed support infrastructure pipeline to feed issues from JIRA to PostgreSQL database</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class = "box">
+          <h2>Java Developer | HubHead Corp. </h2>
             <hr>
             <div class = "list">
               <ul>
@@ -122,15 +136,13 @@
               <ul>
                 <li>Developed RESTful APIs in C# using Microsoft’s .Net framework</li>
                 <li>Created a prototype PDF viewer and editor mobile application using Ionic2 and Angular</li>
-				<li>Built and deployed an Azure Function that purges all unneeded data in SQL Server, improving the overall performance of the SQL Server System</li>
+				        <li>Built and deployed an Azure Function that purges all unneeded data in SQL Server, improving the overall performance of the SQL Server System</li>
                 <li>Worked with data scientists to optimize and modify C# backend data algorithms</li>
                 <li> Worked alongside data scientists to write and optimize mathematical algorithms in R</li>
               </ul>
             </div>
           </div>
         </div>
-
-
       </div>
     </section>
 
@@ -141,25 +153,6 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h3 class="section-title">Projects</h3>
-        </div>
-
-        <div class="row" id="portfolio-wrapper">
-          <div class = "header">
-            <a href="https://github.com/CalvinTse/PlantWaterSystem" target="_blank"><h4>Automatic Plant Watering System</h4></a>
-            <hr>
-          </div>
-          <div class="description">
-            <div class = "list">
-              <ul>
-                <li>This project pairs the Raspberry Pi with the Arduino to detect change in moisture, temperture, and light changes in the surrounding.</li>
-                <li>The information collected by the sensors are sent to Microsoft Azure's Iot Hub via Azure ConnecttheDots</li>
-                <li>Once the data is sent to Azure ConnecttheDots it gets pipelined via Azure Data Flow and gets displayed through PowerBI in real time.</li>
-                <li>This system also waters the plant (via pump) once the moisture in the soil falls below a certain value.</li>
-              </ul>
-            </div>
-            <div class="container">
-            </div>
-          </div>
         </div>
 
         <div class="row" id="portfolio-wrapper">
@@ -184,6 +177,61 @@
             </div>
           </div>
         </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class = "header">
+            <a href="https://github.com/CalvinTse/PlantWaterSystem" target="_blank"><h4>Automatic Plant Watering System</h4></a>
+            <hr>
+          </div>
+          <div class="description">
+            <div class = "list">
+              <ul>
+                <li>This project pairs the Raspberry Pi with the Arduino to detect change in moisture, temperture, and light changes in the surrounding.</li>
+                <li>The information collected by the sensors are sent to Microsoft Azure's Iot Hub via Azure ConnecttheDots</li>
+                <li>Once the data is sent to Azure ConnecttheDots it gets pipelined via Azure Data Flow and gets displayed through PowerBI in real time.</li>
+                <li>This system also waters the plant (via pump) once the moisture in the soil falls below a certain value.</li>
+              </ul>
+            </div>
+            <div class="container">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class = "header">
+            <a href="https://github.com/CalvinTse/2048-Game" target="_blank"><h4>2048 Android Game</h4></a>
+            <hr>
+          </div>
+          <div class="description">
+            <div class = "list">
+              <ul>
+                <li>This project is inspired by the popular 2048 Game and uses sensors in the phone to control in-game movements.</li>
+                <li>Applied OOP methodologies to create game blocks and board movements (ie. collisions, block spawning)</li>
+                <li>Used JUnit to test the edge cases in the collision algorithm</li>
+              </ul>
+            </div>
+            <div class="container">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class = "header">
+            <a href="https://github.com/CalvinTse/NBAStatCharts" target="_blank"><h4>NBA Stat Visualization Dashboard (In the Works!)</h4></a>
+            <hr>
+          </div>
+          <div class="description">
+            <div class = "list">
+              <ul>
+                <li>This project is a dashboard to graphically shows the stats of any player in the NBA</li>
+                <li>Visually compares the stats of an NBA player to the league average</li>
+                <li>Scrapes the NBA Reference website to gather up to date stats on each player</li>
+                <li>Utilized Node.js as the backend to scrape and React as the frontend</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </section>
 
